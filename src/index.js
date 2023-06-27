@@ -1,5 +1,5 @@
 import './styles/style.css';
-import { leaderboard } from './modules/leaderboard';
+import leaderboard from './modules/leaderboard';
 
 const showTasks = () => {
   const list = document.querySelector('.list');

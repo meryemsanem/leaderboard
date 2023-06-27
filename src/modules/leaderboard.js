@@ -1,4 +1,4 @@
-export const leaderboard = [
+const leaderboard = [
   {
     id: 1,
     name: 'John',
@@ -25,3 +25,5 @@ export const leaderboard = [
     score: 90,
   },
 ];
+
+export default leaderboard;
