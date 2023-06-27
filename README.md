@@ -25,9 +25,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# To Do List <a name="about-project"></a>
+# Leaderboard <a name="about-project"></a>
 
-- To-do list" is a tool that helps to organize your day, built with HTML, CSS, JavaScript. With its management features, you can add, mark as completed, remove and make changes to tasks.
+- This is a Leaderboard Project with Webpack and ES6. With this app, you can add your score to the board and get the scores on the leaderboard. Built with HTML , CSS and JavaScript.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -48,16 +48,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- The user can add a new to do list.
-- The user can remove any of the list items.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- The link for To Do List project [Live Demo Link](https://meryemsanem.github.io/To-Do-List/dist/)
+- The user can add a score.
+- Working with API.
+- Interactive website.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -81,7 +74,7 @@ Clone this repository to your desired folder:
 ```sh
   cd desktop
 
-  git clone git@github.com:meryemsanem/To-Do-List.git
+  git clone git@github.com:meryemsanem/leaderboard.git
 
 ```
 
@@ -91,7 +84,7 @@ Install this project with:
 
 ```sh
 
-  cd To-Do-List
+  cd leaderboard
 
   npm install
 ```
