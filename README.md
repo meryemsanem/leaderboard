@@ -9,7 +9,6 @@
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
-    - [Live Demo](#live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -48,9 +47,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-- The user can add a score.
-- Working with API.
-- Interactive website.
+- View the names and scores of the users
+- Use ES6 and Webpack
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -108,6 +106,14 @@ To run the linters, run `npx hint .` and `npx stylelint "**/*.{css,scss}"` or `n
 - GitHub: [@meryemsanem](https://github.com/meryemsanem)
 - Twitter: [@msanemkckbayram](https://twitter.com/twitterhandle)
 - LinkedIn: [Meryem Sanem Küçükbayram](https://linkedin.com/in/linkedinhandle)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 👥 Future Features <a name="-future-features-"></a>
+
+- The user can add a score.
+- Working with API.
+- Interactive website.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
