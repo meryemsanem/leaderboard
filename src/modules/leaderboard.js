@@ -1,5 +1,4 @@
-const url =
-  'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/meryemsanemZl4d7IVkemOTTVg2fUdz/scores/';
+const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/meryemsanemZl4d7IVkemOTTVg2fUdz/scores/';
 
 const scores = document.getElementById('list');
 
