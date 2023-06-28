@@ -74,6 +74,7 @@ input::placeholder {
   margin-top: 20px;
   font-weight: 600;
   width: 100%;
+  margin-left: 5px;
 }
 
 .list-items {
@@ -85,4 +86,12 @@ input::placeholder {
 
 .list-items:nth-child(even) {
   background-color: #d3d3d3;
+}
+
+.recent {
+  margin-left: 5px;
+}
+
+form {
+  margin-right: 5px;
 }
