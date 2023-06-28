@@ -23,14 +23,15 @@ const addNewScore = () => {
           score: userScore,
         }),
       });
-    } catch (error) {}
+    } catch (error) {
+      console.log(error);
+    }
     document.getElementById('name').value = '';
     document.getElementById('score').value = '';
   });
 };
 
-const listElements = (user, score) =>
-  `<div class="list-items">
+const listElements = (user, score) => `<div class="list-items">
   ${user}: ${score}</div>`;
 const display = async () => {
   try {
@@ -42,6 +43,8 @@ const display = async () => {
           scores.insertAdjacentHTML('afterbegin', htmlToAdd);
         });
       });
-  } catch (error) {}
+  } catch (error) {
+    console.log(error);
+  }
 };
 export { addNewScore, display };
