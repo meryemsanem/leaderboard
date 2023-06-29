@@ -38,8 +38,8 @@ const display = async () => {
       .then((result) => result.json())
       .then((data) => {
         data.result.forEach((player) => {
-          const htmlToAdd = listElements(player.user, player.score);
-          scores.insertAdjacentHTML('afterbegin', htmlToAdd);
+           const insertHTML = listElements(player.user, player.score);
+          scores.insertAdjacentHTML('afterbegin', insertHTML);
         });
       });
   } catch (error) {
