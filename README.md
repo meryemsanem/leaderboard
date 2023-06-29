@@ -59,7 +59,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- The link for To Do List project [Live Demo Link](https://meryemsanem.github.io/leaderboard/dist/)
+- The link for Leaderboard project [Live Demo Link](https://meryemsanem.github.io/leaderboard/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
