@@ -1,4 +1,5 @@
-const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/meryemsanemZl4d7IVkemOTTVg2fUdz/scores/';
+const url =
+  'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/meryemsanemkckbayramZl4d7IVkemOTTVg2fUdz/scores/';
 
 const scores = document.getElementById('list');
 
@@ -38,8 +39,8 @@ const display = async () => {
       .then((result) => result.json())
       .then((data) => {
         data.result.forEach((player) => {
-          const htmlToAdd = listElements(player.user, player.score);
-          scores.insertAdjacentHTML('afterbegin', htmlToAdd);
+          const insertHTML = listElements(player.user, player.score);
+          scores.insertAdjacentHTML('afterbegin', insertHTML);
         });
       });
   } catch (error) {
