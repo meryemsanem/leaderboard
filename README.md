@@ -122,7 +122,7 @@ To run the linters, run `npx hint .` and `npx stylelint "**/*.{css,scss}"` or `n
 
 ## 👥 Future Features <a name="-future-features-"></a>
 
--Add animations
+- Add animations
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
