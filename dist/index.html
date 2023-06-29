@@ -7,33 +7,29 @@
       src="https://kit.fontawesome.com/32baa8b9a9.js"
       crossorigin="anonymous"
     ></script>
-    <title>To Do List</title>
+    <title>Leaderboard</title>
     <link rel="stylesheet" type=text/html href="./styles/style.css" />
-  <script defer src="bundle.js"></script></head>
+  </head>
 
   <body>
-    <main id="container" class="container">
-      <div class="common">
-        <p class="p">Today's To Do</p>
-        <button class="btn first">
-          <i class="fa-sharp fa-solid fa-rotate"></i>
-        </button>
+    <h1 class="title">Leaderboard</h1>
+    <div class="main-container">
+      <div class="score-container">
+        <div class="head-container">
+          <h2 class="recent">Recent Scores</h2>
+          <button type="button" id="refresh-btn">Refresh</button>
+        </div>
+        <div class="list" id="list"></div>
       </div>
-      <div class="common">
-        <input
-          id="input"
-          type="text"
-          class="textInput"
-          placeholder="Add to your list..."
-        />
-        <button class="btn second">
-          <i class="fa-solid fa-arrow-turn-down fa-rotate-90"></i>
-        </button>
-      </div>
-      <ul id="list"></ul>
-      <button class="btnComplete">
-        <p>Clear all completed</p>
-      </button>
-    </main>
+
+      <form class="board" id="board">
+        <h2 class="form-input">Add your score</h2>
+        <input type="text" placeholder="Your name" id="name" required />
+        <input type="number" placeholder="Your score" id="score" required />
+        <div class="btn">
+          <button type="submit" id="form-btn">Submit</button>
+        </div>
+      </form>
+    </div>
   </body>
 </html>
